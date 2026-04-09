@@ -1,0 +1,90 @@
+[[stack]]
+name = "ctf-challenge-brouklou"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/brouklou"
+environment = """
+SUBDOMAIN=brouklou
+DOMAIN=ctf.ajiz.org
+PORT=80
+"""
+
+[[stack]]
+name = "ctf-challenge-ctfjail"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/ctfJail"
+environment = """
+SUBDOMAIN=jail
+DOMAIN=ctf.ajiz.org
+PORT=9999
+"""
+
+[[stack]]
+name = "ctf-challenge-livrily2"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/Livrily2"
+environment = """
+SUBDOMAIN=livrily2
+DOMAIN=ctf.ajiz.org
+PORT=3001
+"""
+
+[[stack]]
+name = "ctf-challenge-livrirly4"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/livrirly4"
+environment = """
+SUBDOMAIN=livrirly4
+DOMAIN=ctf.ajiz.org
+PORT=9999
+"""
+
+[[stack]]
+name = "ctf-challenge-sleeperagents"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/SleeperAgents"
+environment = """
+SUBDOMAIN=sleeperagents
+DOMAIN=ctf.ajiz.org
+PORT=3000
+"""
+
+[[stack]]
+name = "ctf-challenge-sqli"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/sqli"
+environment = """
+SUBDOMAIN=sqli
+DOMAIN=ctf.ajiz.org
+PORT=3000
+"""
+
+[[stack]]
+name = "ctf-challenge-xss"
+[stack.config]
+server = "ajiz-ctf"
+links = ["https://ctf.ajiz.org/"]
+repo = "aabichou/ajiz-ctf-deployment"
+run_directory = "challenges/XSS"
+environment = """
+SUBDOMAIN=xss
+DOMAIN=ctf.ajiz.org
+PORT=80
+"""

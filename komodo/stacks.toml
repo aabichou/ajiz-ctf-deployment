@@ -3,6 +3,7 @@ name = "ctf-challenge-brouklou"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/brouklou"
@@ -17,6 +18,7 @@ name = "ctf-challenge-ctfjail"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/ctfJail"
@@ -31,6 +33,7 @@ name = "ctf-challenge-livrily2"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/Livrily2"
@@ -45,6 +48,7 @@ name = "ctf-challenge-livrirly4"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/livrirly4"
@@ -59,6 +63,7 @@ name = "ctf-challenge-sleeperagents"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/SleeperAgents"
@@ -73,6 +78,7 @@ name = "ctf-challenge-sqli"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/sqli"
@@ -87,6 +93,7 @@ name = "ctf-challenge-xss"
 [stack.config]
 server = "ajiz-ctf"
 branch = "master"
+file_paths = ["compose.yml"]
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/XSS"

@@ -13,5 +13,5 @@ services:
 
 networks:
   default:
-    name: traefik
+    name: external
     external: true

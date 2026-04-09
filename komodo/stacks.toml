@@ -2,6 +2,7 @@
 name = "ctf-challenge-brouklou"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/brouklou"
@@ -15,6 +16,7 @@ PORT=80
 name = "ctf-challenge-ctfjail"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/ctfJail"
@@ -28,6 +30,7 @@ PORT=9999
 name = "ctf-challenge-livrily2"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/Livrily2"
@@ -41,6 +44,7 @@ PORT=3001
 name = "ctf-challenge-livrirly4"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/livrirly4"
@@ -54,6 +58,7 @@ PORT=9999
 name = "ctf-challenge-sleeperagents"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/SleeperAgents"
@@ -67,6 +72,7 @@ PORT=3000
 name = "ctf-challenge-sqli"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/sqli"
@@ -80,6 +86,7 @@ PORT=3000
 name = "ctf-challenge-xss"
 [stack.config]
 server = "ajiz-ctf"
+branch = "master"
 links = ["https://ctf.ajiz.org/"]
 repo = "aabichou/ajiz-ctf-deployment"
 run_directory = "challenges/XSS"

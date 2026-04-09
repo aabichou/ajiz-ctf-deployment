@@ -1,25 +1,26 @@
 services:
   traefik:
-    image: traefik:v3.6
-    container_name: traefik
+    image: traefik:v2.10
     command:
-      - "--log.level=DEBUG"
       - "--api.insecure=true"
-      - "--accesslog=true"
       - "--providers.docker=true"
-      - "--providers.docker.exposedbydefault=false"
       - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      - "--certificatesresolvers.myresolver.acme.email=${EMAIL}"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
     ports:
       - "80:80"
+      - "443:443"
+      - "8080:8080"  # Dashboard
     volumes:
-      - "./letsencrypt:/letsencrypt"
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./letsencrypt:/letsencrypt"
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.proxy.rule=Host(`proxy.${DOMAIN}`)"
       - "traefik.http.routers.proxy.entrypoints=web"
       - "traefik.http.services.proxy.loadbalancer.server.port=8080"
 networks:
-  default:
-    name: traefik
+  web:
     external: true

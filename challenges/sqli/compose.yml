@@ -1,0 +1,17 @@
+services:
+  brouklou:
+    image: adamab/ctf-${SUBDOMAIN}:ajiz
+    container_name: ${SUBDOMAIN}
+    restart: unless-stopped
+    expose:
+      - ${PORT}
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${SUBDOMAIN}.rule=Host(`${SUBDOMAIN}.${DOMAIN}`)"
+      - "traefik.http.routers.${SUBDOMAIN}.entrypoints=web"
+
+      - "traefik.http.services.${SUBDOMAIN}.loadbalancer.server.port=${PORT}"
+networks:
+  default:
+    name: traefik
+    external: true

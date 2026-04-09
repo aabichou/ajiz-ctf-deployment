@@ -1,0 +1,13 @@
+# Environment variables with secrets
+*/.env
+
+# Docker volumes and data
+letsencrypt/
+*/.data/
+
+# Logs
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db

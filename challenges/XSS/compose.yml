@@ -1,6 +1,6 @@
 services:
   brouklou:
-    image: adamab/ctf-${SUBDOMAIN}:ajiz
+    image: adamab/{SUBDOMAIN}:ajiz
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

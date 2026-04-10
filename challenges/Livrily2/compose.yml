@@ -1,6 +1,6 @@
 services:
   brouklou:
-    image: ${REPO}/ctf-${SUBDOMAIN}:latest
+    image: ${REPO}/{SUBDOMAIN}:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

@@ -1,9 +1,6 @@
 services:
-  brouklou:
-    image: adamab/${SUBDOMAIN}:ajiz
-    build:
-      context: .
-      dockerfile: Dockerfile
+  ctfjail:
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/ctfjail:ajiz
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     ports:

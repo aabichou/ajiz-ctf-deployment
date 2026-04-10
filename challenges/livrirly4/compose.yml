@@ -1,6 +1,6 @@
 services:
-  brouklou:
-    image: ${REPO}/${SUBDOMAIN}:latest
+  livrirly4:
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/livrirly4:ajiz
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

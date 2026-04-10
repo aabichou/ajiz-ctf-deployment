@@ -1,6 +1,6 @@
 services:
-  brouklou:
-    image: adamab/${SUBDOMAIN}:ajiz
+  sqli:
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/sqli:ajiz
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

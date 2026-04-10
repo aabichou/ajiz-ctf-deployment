@@ -19,7 +19,7 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.proxy.rule=Host(`proxy.${DOMAIN}`)"
-      - "traefik.http.routers.proxy.entrypoints=web"
+      - "traefik.http.routers.proxy.entrypoints=websecure"
       - "traefik.http.services.proxy.loadbalancer.server.port=8080"
 networks:
   web:

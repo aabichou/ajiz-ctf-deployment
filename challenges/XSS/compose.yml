@@ -1,6 +1,6 @@
 services:
   xss:
-    image: ghcr.io/aabichou/ctf-challenges-ajiz/xss:ajiz
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/xss:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

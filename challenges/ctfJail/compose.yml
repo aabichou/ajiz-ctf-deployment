@@ -1,6 +1,6 @@
 services:
   ctfjail:
-    image: ghcr.io/aabichou/ctf-challenges-ajiz/ctfjail:ajiz
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/ctfjail:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     ports:

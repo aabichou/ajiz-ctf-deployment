@@ -1,6 +1,6 @@
 services:
   livrily2:
-    image: ghcr.io/aabichou/ctf-challenges-ajiz/livrily2:ajiz
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/livrily2:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

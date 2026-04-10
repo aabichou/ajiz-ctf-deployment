@@ -1,6 +1,6 @@
 services:
   brouklou:
-    image: ghcr.io/aabichou/ctf-challenges-ajiz/brouklou:ajiz
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/brouklou:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

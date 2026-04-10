@@ -1,6 +1,6 @@
 services:
   sqli:
-    image: ghcr.io/aabichou/ctf-challenges-ajiz/sqli:ajiz
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/sqli:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

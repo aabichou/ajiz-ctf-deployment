@@ -1,6 +1,6 @@
 services:
   sleeperagents:
-    image: ghcr.io/aabichou/ctf-challenges-ajiz/sleeperagents:ajiz
+    image: ghcr.io/aabichou/ctf-challenges-ajiz/sleeperagents:latest
     container_name: ${SUBDOMAIN}
     restart: unless-stopped
     expose:

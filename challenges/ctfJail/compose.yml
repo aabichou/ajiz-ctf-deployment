@@ -1,6 +1,6 @@
 services:
   brouklou:
-    image: adamab/{SUBDOMAIN}:ajiz
+    image: adamab/${SUBDOMAIN}:ajiz
     build:
       context: .
       dockerfile: Dockerfile
